@@ -11,7 +11,7 @@ titulo.textContent = "Proyecto JavaScript"
 //uso array
 
 //SIMULADOR CALCULADORA DE EVALUACIONES (estudios)
-//BASE: El semestre consta de 4 evaluaciones + examen final. Las 4 evaluaciones equivalen un 60% y el examen equivale un 40% de la nota final de aprobocación.
+//BASE: El semestre consta de 4 evaluaciones + examen final. Las 4 evaluaciones equivalen un 60% y el examen equivale un 40% de la nota final de aprobación.
 //El rango de notas va desde 1.0 a 7.0 y debes tener una nota superior a 4.0 para aprobar.
 
 const notaParcial = 0.15;
