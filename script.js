@@ -32,13 +32,13 @@ function leerNotas() {
 function calcularPromedio() {
   const [n1, n2, n3, n4, notaExamen] = leerNotas();
   if ([n1, n2, n3, n4, notaExamen].includes(null)) {
-    confirm('Completa los campos con tus notas');
+    console.log('Completa los campos con tus notas');
     return;
   }
 //   confirm('${notasExamen}');
   const promedio = (notaParcial * (n1 + n2 + n3 + n4)) + (notaExamen * porcentajeExamen);
   const aprobado = promedio >= notaAprobacion ? '¡Aprobado!' : 'Reprobado';
-  confirm(`Promedio final: ${promedio.toFixed(2)} — ${aprobado}`);
+  console.log(`Promedio final: ${promedio.toFixed(2)} — ${aprobado}`);
 }
 
 // Calcular nota mínima necesaria en el examen <--- por ver
