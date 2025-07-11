@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script defer src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <main>
             <h1>Calculadora de Evaluaciones</h1>
             <h2>Proyecto Javascript</h2>
-            <p id="bienvenida">Bienvenido a la calculadora de notas, en este pequeño simulador, podrás tener un registro de tus evaluaciones, y calcular qué nota necesitas para pasar esa materia tan compleja y claro ¡las otras materias también!</p>
-            <div class="box">
+            <p id="bienvenida">Bienvenido a la calculadora de notas, en este pequeño simulador, podrás tener un registro de tus evaluaciones, y calcular qué nota necesitas para aprobar esa materia tan compleja y claro ¡las otras materias también!</p>
+            
+            <!-- <div id="box">
                 <form action="submit" method="post">
                     <label for="nombre">Nombre</label>
                     <input type="text" name="Nombre" id="Nombre">
@@ -22,7 +22,15 @@
                 <button type="button" id="loginBtn">Ingresar</button>
             <div id="registro">
                 <a href="/registro.html"> Registrate</a>
+            </div> -->
+<!-- --------------------------------Materia--------------------------- -->
+            <div id="materiasContainer">
+                <input type="text" id="materiaInput">
+                <button id="addMateriaBtn">Agregar</button>
             </div>
+
+
+
 <!-- -------------------calculadora--------------------->
             <div id="calcular">
                     <ol id=calculadora>
@@ -34,6 +42,11 @@
                     </ol>
                     <button id="btnCalcular">Calcular</button>
                 </div>
+
+                <div>
+                    <p id="mensaje"></p>
+                </div>
         </main>
+    <script src="script.js"></script>
 </body>
 </html>
