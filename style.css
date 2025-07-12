@@ -1,20 +1,16 @@
 body{
-    min-width: 480px;
     max-width: 800px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(248, 247, 238);
-    display: flex;
     justify-content: center;
     text-align: center;
-    align-items: center;      
-}
+    margin: 3%;
+   }
 
 main{
 width: 80%;
 display: inline;
 justify-content: center;
-box-shadow: 2px 2px 20px;
-border-radius: 50px;
 padding: 10px;
 }
 
@@ -27,67 +23,51 @@ a{
 }
 
 input{
-    width: 100px;
-    margin: 5px;
+    width: 70px;
+    margin: 5px 10px;
     height: 20px;
+    text-align: center;
 }
 
-ol{
-    display: block;
-    display: flex;
+#materiaInput{
+    margin: 40px;
+    width: 250px;
+    text-align: center;
+    height: 30px;
 }
+
+
 
 #bienvenida{
     background-color: rgb(255, 255, 255);
     padding: 16px;
-    margin: 50px 0px;
+    border-radius: 20px;
     width: 95%;
     justify-items: center;
 }
 
-/* .box{
-    background-color: rgb(212, 212, 212);
-    padding: 16px;
-    margin: 50px;
-    border-radius: 20px;
-
-} */
 
 #materiasContainer{
-    display: inline-block
+    display: inline-block;
+    padding: 30px;
+    box-shadow: 2px 2px 20px;
+    border-radius: 50px;
 }
 
-#calcular{
-    display: inline-block;
-    justify-content: center;
+#materiasContainer:empty{
+    box-shadow: none;
 }
-#calcular{
-    display: grid;
-    grid-template-rows: 1fr;
-    background-color: rgb(248, 218, 239);
-    display: inline-block;
-    padding: 16px;
-    margin: 10px;
-    text-align: left;
-}
+
 
 button{
-    background-color: rgb(175, 238, 93);
-    border: 2px solid rgb(162, 233, 162);
+    background-color: rgb(216, 255, 168);
+    border: 2px solid rgb(250, 255, 250);
     border-radius: 20px;
     box-shadow: 1px 1px 3px;
     width: 70px;
     height: 30px;
     position: relative;
     
-}
-
-#mensaje{
-    display: inline-block;
-    border: 2px solid rgb(255, 0, 0);
-    height: 30px;
-    width: 400px;
-    border-radius: 10px;
 }
 
 
