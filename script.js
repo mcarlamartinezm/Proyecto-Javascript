@@ -7,8 +7,6 @@
 //flujo: nombre materia-agregar - crea nueva materia con input de calculadora -hace calculo de las materias.
 
 
-
-
 //-------------------crear Materias
 
 class Materia {
@@ -50,7 +48,7 @@ class Materia {
     this.guardar();
     }
   }
-  //-------------------recuperar guardar materias en el localstorage
+  //-------------------recuperar materias en el localstorage
   const materias = JSON.parse(localStorage.getItem('materias')) || [];
 
   

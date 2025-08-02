@@ -1,0 +1,8 @@
+//SIMULADOR CALCULADORA DE EVALUACIONES (estudios)
+//BASE: La calculadora puede agregar una sesión para guardar las notas del usuario. 
+Puede agregar una materia y escoger el % de equivalencia de cada nota, y simular qué nota necesita sacar para aprobar la materia.
+
+
+//El rango de notas va desde 1.0 a 7.0 y debes tener una nota superior a 4.0 para aprobar. (estándar chileno de evaluaciones)
+
+//flujo: nombre materia - agregar - crea nueva materia con input de calculadora -hace calculo de las materias.
