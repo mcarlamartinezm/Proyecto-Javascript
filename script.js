@@ -1,3 +1,13 @@
+//--------Bienvenida
+
+ alert.Swal.fire("Bienvenido a la calculadora de notas, en este pequeño simulador, podrás tener un registro de tus evaluaciones, y calcular qué nota necesitas para aprobar ¡Comencemos!");
+
+
+
+
+
+
+
 //-------------------crear Materias
 class Materia {
   constructor(nombre) {
