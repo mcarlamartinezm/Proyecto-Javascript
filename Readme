@@ -1,18 +1,22 @@
 SIMULADOR CALCULADORA DE EVALUACIONES (estudios)
 
-BASE: La calculadora puede agregar una sesión para guardar las notas del usuario. 
-Puede agregar una materia y escoger el % de equivalencia de cada nota, y simular qué nota necesita sacar para aprobar la materia.
-
+CONTEXTO DE LA CALCULADORA
+Puede agregar una materia (o ramo, el cual esté cursando) y escoger el % de equivalencia de cada nota, y simular qué nota necesita sacar en el exámen final, para aprobar.
 
 El rango de notas va desde 1.0 a 7.0 y debes tener una nota superior a 4.0 para aprobar. (estándar chileno de evaluaciones)
 
-flujo: 
+flujo:
+- Bienvenida. 
 - Nombre materia.  
 - Agregar materia. (botón)
 - Crea nueva materia con input de calculadora. 
-- Hace calculo de las materias.
+- Hace calculo de las materias con posibilidad de modificar los porcentajes en el calculo.
 - Eliminar materias
-- Calcular nota mínima para aprobar el ramo.
+- Calcular nota de examen mínima para aprobar el ramo.
+
+
+
+
 
 
 
