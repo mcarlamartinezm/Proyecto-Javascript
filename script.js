@@ -1,11 +1,4 @@
 
-//SIMULADOR CALCULADORA DE EVALUACIONES (estudios)
-//BASE: La calculadora puede agregar una sesión para guardar las notas del usuario. Puede agregar una materia y escoger el % de equivalencia de cada nota, y simular qué nota necesita sacar para aprobar la materia.
-
-//El rango de notas va desde 1.0 a 7.0 y debes tener una nota superior a 4.0 para aprobar.
-
-//flujo: nombre materia-agregar - crea nueva materia con input de calculadora -hace calculo de las materias.
-
 
 //-------------------crear Materias
 
@@ -117,46 +110,6 @@ class Materia {
     container.appendChild(div);
   });
 }
-
 renderMaterias(); //imprime materias al cargar la pagina
 
 
-//otras funciones por agregar. 
-//❌Borrar materias - 💯simular nota de examen - 🚼logear usuario, 
-
-
-
-//-----------calculadora primera entrega------------------------------
-
-
-// const notaParcial = 0.15;
-// const notaExamen = 0;
-// const notaAprobacion = 4.0
-// const porcentajeExamen = 0.40;
-
-// //Leer notas
-// function leerNotas() {
-//   const ids = ['n1', 'n2', 'n3', 'n4', 'examen'];
-//   return ids.map(id => {
-//     const valor = parseFloat(document.getElementById(id).value);
-//     return isNaN(valor) ? null : valor;
-//   });
-// }
-
-//Promedio
-// function calcularPromedio() {
-//     const [n1, n2, n3, n4, notaExamen] = leerNotas();
-//     if ([n1, n2, n3, n4, notaExamen] > 7.0) 
-//       alert = 'Corrige tus notas'
-//     else if ([n1, n2, n3, n4, notaExamen].includes(null)) {
-//       alert = 'Completa los campos con tus notas';
-//     }
-//   }
-// // mensaje de aprobación
-//   const promedio = (notaParcial * (n1 + n2 + n3 + n4)) + (notaExamen * porcentajeExamen);
-//   const aprobado = promedio >= notaAprobacion ? '¡Aprobado!' : 'Reprobado';
-//       alert = Promedio final: ${promedio.toFixed(2)} — ${aprobado};
-  
-
-
-// Calcular nota mínima necesaria en el examen <--- por ver
